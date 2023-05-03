@@ -817,6 +817,18 @@ padding-bottom: 5%;
  display: none;
 }
 @media (max-width:578px){
+    .navbar-bg {
+        min-height: 55px !important;
+        background-color:black;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+    
+    .navbar-bg2 {
+        background-color:black;
+        transition: all .2s ease-in-out;
+        animation: smoothScroll 1s forwards;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
     .beneift {
         background-color: var(--second-color) !important;
         padding: 25px 15px 25px 15px;
