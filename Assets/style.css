@@ -817,6 +817,16 @@ padding-bottom: 5%;
  display: none;
 }
 @media (max-width:578px){
+    .beneift {
+        background-color: var(--second-color) !important;
+        padding: 25px 15px 25px 15px;
+    }.card-text {
+        font-size: 15px;
+        margin-top: 10%;
+    }#laptop-2 {
+        width: 100%;
+        margin-top: 0%;
+    }
     .num-1 {
         background-color: rgba(255, 236, 234, 1);
         padding: 10% 13%;
@@ -882,9 +892,11 @@ padding-bottom: 5%;
         margin-top: 35px;
         font-weight: 500;
         color: #666666;
-        font-size: 15px;
+        font-size: 12px;
     }#do{
         margin-top: 20px;
+    }.wed {
+        margin-top: 0%;
     }
     #arr-1 {
         width: 25% !important;
@@ -911,16 +923,15 @@ padding-bottom: 5%;
     }.clrd {
         border: none !important;
         margin-top: 15px;
-    }#bank{
-        width: 65%;
-        margin-top: 30px;
-    }#bank-2{
-        width: 90%;
-        margin-top: 30px;
-    }#bank-3{
-        width: 65%;
-       
-        margin-top: 30px;
+    }#bank {
+        width: 35%;
+        margin-top: 45px;
+    }#bank-2 {
+        width: 55%;
+        margin-top: 45px;
+    }#bank-3 {
+        width: 50%;
+        margin-top: 45px;
     }#bls {
         background-color: var(--third-color) !important;
         margin-top: 25px;
