@@ -645,12 +645,13 @@ margin-top: 10%;
     color: var(--third-color);
    
   } #tab .table tbody  tr td{
-    width: 0%;
+    width: 10%;
     border:none;
     padding-top: 15px;
     padding-bottom: 15px;
     color: #666666;
     padding-left: 20px;
+    
   }.btn-6{
     
     background-color: var(--four-color) !important;
@@ -672,9 +673,12 @@ margin-top: 10%;
 }.lite{
     font-weight: bold;
     color:var(--third-color) !important;
-    font-size: 17px;
+    font-size: 14px;
   
-}#lit{
+}#ups{
+    width: 100px;
+}
+#lit{
     width: 25% !important;
 }#tab{
     margin-top: 50px;
