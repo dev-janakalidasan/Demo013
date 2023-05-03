@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-body{
+*{
     
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif !important;
     
 }
 /*text and bg color*/
@@ -344,7 +344,8 @@ padding-top: 35px;
     
 }.low{
     color: #666666;
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 14px;
 }#sms ul li{
     line-height: 40px !important;
 }.card-title-2{
@@ -490,12 +491,15 @@ margin-top: 35px !important;
     justify-content: center;
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 17px;
   }#five{
     width: 35%;
     height: 100px;
    
-  }#pinks{
+  }#gogle{
+    font-size: 14px;
+  }
+  #pinks{
     box-shadow: 0px 28px 38px #fadada;
     width: 24rem;height: 25rem;
   }
@@ -562,12 +566,12 @@ margin-top: 35px !important;
     justify-content: center;
     text-align: center;
  color: #666666;
-    font-size: 16px;
+    font-size: 15px;
 }.trust{
     margin-top: 35px;
     font-weight: 500;
     color: #666666;
-    font-size: 19px;
+    font-size: 17px;
 }#man{
     width: 85%;
 }.wed{
@@ -612,10 +616,10 @@ margin-top: 10%;
     box-shadow: 0px 0px 6px #000c14;
 }.card-title{
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 6%;
 }.card-text{
-    font-size: 17px;
+    font-size: 16px;
     margin-top: 10%;
 }
 /*accpunt*/
