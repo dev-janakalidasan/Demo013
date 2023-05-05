@@ -820,6 +820,17 @@ padding-bottom: 5%;
  display: none;
 }
 @media (max-width:578px){
+    .trust-1{
+        margin-top: 10%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        }
+    .wedo{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
     .navbar-bg {
         min-height: 55px !important;
         background-color:black;
@@ -904,14 +915,20 @@ padding-bottom: 5%;
         text-align: center;
         margin-top: 50px;
     }.trust {
+        display: flex;
+        justify-content: center;
+        text-align: center;
         margin-top: 35px;
         font-weight: 500;
         color: #666666;
-        font-size: 12px;
+        font-size: 14px;
     }#do{
         margin-top: 20px;
     }.wed {
         margin-top: 0%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
     }
     #arr-1 {
         width: 25% !important;
