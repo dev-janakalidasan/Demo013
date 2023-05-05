@@ -721,16 +721,17 @@ padding-bottom: 5%;
   font-size: 20px;
   font-weight: 500;
   padding-right: 15px;
-    
+    margin-top: -10px;
   }form input[value=USD]{
     display: flex;
     justify-content: end;
     text-align: end;
     font-size: 20px;
-    margin-top: 0px;
+    margin-top: -10px;
     font-weight: 500;
     padding-right: 15px;
     }
+    
    
   form p{
     font-size: 18px;
@@ -746,11 +747,12 @@ padding-bottom: 5%;
  
   form .icon{
     cursor: pointer;
-  
     font-size: 22px;
     display: flex;
     justify-content: center;
-  }
+    margin-top: -10px;
+}
+  
   form .exchange-rate{
     text-align: end;
     margin-top: 0px;
@@ -759,10 +761,11 @@ padding-bottom: 5%;
     margin-top: 0px;
   }
   form .bi{
-   border: 1px solid var(--first-color) !important;
+    border: 1px solid var(--first-color) !important;
     border-radius: 50%;
-    padding: 5px 5px 5px 5px;
+    padding: 7px 7px 7px 7px;
     position: relative;
+    background-color: white;
   }
  .btn-7{
     height: 52px;
